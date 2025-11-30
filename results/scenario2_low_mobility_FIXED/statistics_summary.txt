@@ -1,0 +1,76 @@
+================================================================================
+MANET ROUTING PROTOCOL PERFORMANCE ANALYSIS
+================================================================================
+
+COMPARATIVE SUMMARY
+--------------------------------------------------------------------------------
+Protocol   Avg PDR      Avg Delay(s)    Avg Tput(Kbps)     Total OH    
+--------------------------------------------------------------------------------
+AODV       0.8257      0.005813      8.42           19398       
+OLSR       0.8459      0.000630      8.57           6253        
+DSR        0.8479      0.000893      8.66           5277        
+DSDV       0.8408      0.003971      8.50           13102       
+
+================================================================================
+DETAILED STATISTICS
+================================================================================
+
+AODV:
+  Throughput:
+    Average: 8.42 Kbps
+    Min/Max: 0.00 / 11.26 Kbps
+    Std Dev: 3.65 Kbps
+  Packet Delivery Ratio:
+    Average: 0.8257 (82.57%)
+    Min/Max: 0.0000 / 0.9930
+  End-to-End Delay:
+    Average: 0.005813 seconds
+    Min/Max: 0.000000 / 0.086300 seconds
+  Routing Overhead:
+    Total packets: 19398
+    Average rate: 97.84 packets/sec
+
+OLSR:
+  Throughput:
+    Average: 8.57 Kbps
+    Min/Max: 0.00 / 11.26 Kbps
+    Std Dev: 3.66 Kbps
+  Packet Delivery Ratio:
+    Average: 0.8459 (84.59%)
+    Min/Max: 0.0000 / 1.0000
+  End-to-End Delay:
+    Average: 0.000630 seconds
+    Min/Max: 0.000000 / 0.004200 seconds
+  Routing Overhead:
+    Total packets: 6253
+    Average rate: 31.45 packets/sec
+
+DSR:
+  Throughput:
+    Average: 8.66 Kbps
+    Min/Max: 0.00 / 11.78 Kbps
+    Std Dev: 3.68 Kbps
+  Packet Delivery Ratio:
+    Average: 0.8479 (84.79%)
+    Min/Max: 0.0000 / 1.0000
+  End-to-End Delay:
+    Average: 0.000893 seconds
+    Min/Max: 0.000000 / 0.008200 seconds
+  Routing Overhead:
+    Total packets: 5277
+    Average rate: 26.65 packets/sec
+
+DSDV:
+  Throughput:
+    Average: 8.50 Kbps
+    Min/Max: 0.00 / 11.26 Kbps
+    Std Dev: 3.65 Kbps
+  Packet Delivery Ratio:
+    Average: 0.8408 (84.08%)
+    Min/Max: 0.0000 / 1.0000
+  End-to-End Delay:
+    Average: 0.003971 seconds
+    Min/Max: 0.000000 / 0.016800 seconds
+  Routing Overhead:
+    Total packets: 13102
+    Average rate: 63.49 packets/sec
